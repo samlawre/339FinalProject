@@ -6,6 +6,7 @@ h1{
     text-align: center;
     
 }
+
 nav{
     background-color: rgb(255, 255, 164);
     border: 2px solid black;
@@ -28,11 +29,11 @@ nav ul li{
     font-family:"Roboto", Condensed,sans-serif;
 }
 
-a:active{
+nav a:active{
     color:blueviolet;
     text-decoration-color: blueviolet;
 }
-a:visited{ 
+nav a:visited{ 
     color: blue;
     text-decoration-color: blue;
 }
@@ -51,5 +52,29 @@ p{
     border: 3px solid black;
     width:50%;
     border-radius: 10px;
-    justify-items:center
+    text-align:center;
+    padding: 5px;
+    align-self: center;
+    
+}
+
+img{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+main a{
+    position:absolute; 
+    top:-40px;
+}
+
+main a:focus{
+    top:20px;
+}
+
+.first{
+    background-color: aqua;
+    padding: 20px 50px;
+    border: 2px solid crimson;
+    border-radius: 20px;
 }
