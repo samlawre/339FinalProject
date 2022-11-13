@@ -4,16 +4,16 @@ h1{
     font-size: 50px;
     display: block;
     text-align: center;
-    
+    padding-bottom: 20px;
 }
 
 nav{
-    background-color: rgb(255, 255, 164);
-    border: 2px solid black;
     display: inline-block;
-    padding: 20px;
+    /* padding: 20px; */
     width:100%;
-    margin-right: 15px;
+    /* border-top: 10px solid #d8d8d8; */
+    /* margin-right: 15px; */
+    padding-bottom: 20px;
 }
 nav ul{
     display:flex;
@@ -41,6 +41,7 @@ nav a:visited{
 h3{
     font-size: 30px;
     text-align: center;
+    padding-bottom: 15px;
 }
 main ul li{
     text-align: center;
@@ -75,6 +76,48 @@ main a:focus{
 .first{
     background-color: aqua;
     padding: 20px 50px;
-    border: 2px solid crimson;
-    border-radius: 20px;
+    border: 2px solid black;
+    /* border-radius: 20px; */
+}
+
+header p{
+    padding: 10px;
+    border-bottom: 15px;
+}
+
+nav ul{
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    margin: 0 2px;
+}
+
+.second{
+    background-color: pink;
+    padding: 20px 50px;
+    border: 2px solid black;
+}
+
+.third{
+    background-color: lightgreen;
+    padding: 20px 50px;
+    border: 2px solid black;
+}
+
+.fourth{
+    background-color: lightyellow;
+    padding: 20px 50px;
+    border: 2px solid black;
+}
+
+nav ul li{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
