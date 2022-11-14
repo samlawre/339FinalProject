@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/london.css">
 
+
     <title>Study Abroad </title>
     <body>
         <header>
@@ -19,46 +20,67 @@
                     <li class="fourth"><a href = "compare.html">Comparing Cities</a></li>
                 </ul>
             </nav>
+    <h1>London Bucket List</h1>
 </head>
 
 <body>
     <div class="controls">
-        <button type="button" class="control" data-filter="food">Food</button>
-        <button type="button" class="control" data-filter="tourist">Tourist</button>
-        <button type="button" class="control" data-filter="entertainment">Entertainment</button>
-        <button type="button" class="control" data-filter="none">None</button>
+        <button type="button" class="control" data-filter=".food">Food</button>
+        <button type="button" class="control" data-filter=".culture">Culture</button>
+        <button type="button" class="control" data-filter=".entertainment">Entertainment</button>
+        <button type="button" class="control" data-filter=".none">All</button>
     
         <button type="button" class="control" data-sort="default:asc">Price Ascending</button>
         <button type="button" class="control" data-sort="default:desc">Price Descending</button>
     </div>
     <div class="container gallery">
-        <figure class="mix food tourist" data-order="0">
-            <img src="images/Borough-Market-sign.jpg" alt="Borough Market">
+        <figure class="mix food culture none" data-order="0">
+            <img src="images/Borough-Market-sign.jpg" alt="Borough Market"></a>
             <figcaption>Borough Market FREE admission</figcaption>
         </figure>
-        <figure class="mix tourist" data-order="90">
+       
+       
+        <figure class="mix culture none" data-order="90">
             <img src="images/buckinghampalace.png" alt="Buckingham Palace">
             <figcaption>Buckingham Palace tour £90.00</figcaption>
         </figure>
-        <!-- <p class="textone">This is Borough market</p> -->
-        <!-- <p class="textone">This is Buckingham Palace</p> -->
-        <figure class="mix tourist food" data-order="0">
+
+        <figure class="mix entertainment food none" data-order="0">
             <img src="images/CovetGarden.jpeg" alt="Covent Garden">
-            <figcaption>Covent Garden</figcaption>
+            <figcaption>Covent Garden FREE admission</figcaption>
         </figure>
-        <img class="four" src = "images/wembleystadium.jpg" width="400" alt = "Wembley Stadium">
-        <!-- <p class="textone">This is Covent Garden</p> -->
-        <!-- <p class="textone">This is Wembley Stadium</p> -->
-        <img class="five" src = "images/olympicpark.jpg" width="400" alt = "Olympic Park">
-        <img class="six" src = "images/PortobelloRoad.jpg" width="400" alt = "Portobello Road">
-        <!-- <p class="textone">This is Olympic Park</p> -->
-        <!-- <p class="textone">This is Portobello Road</p> -->
-        <img class="seven" src = "images/Bigben+londoneye.jpg" width="400" alt = "Big Ben and the London Eye">
-        <img class="eight" src = "images/Fabric-London-club.jpg" width="400" alt = "Fabric Club">
-        <img class="nine" src = "images/CamdenMarket.jpg" width="400" alt = "Camden Market">
+        <figure class="mix entertainment none" data-order="24">
+            <img src="images/wembleystadium.jpg" alt="Wembley Stadium">
+            <figcaption>Wembley Stadium (price varies)</figcaption>
+        </figure>
+
+        <figure class="mix culture none" data-order="0">
+            <img src="images/olympicpark.jpg" alt="Olympic Park">
+            <figcaption>Olympic Park FREE admission</figcaption>
+        </figure>
+
+        <figure class="mix entertainment food culture none" data-order="0">
+            <img src="images/PortobelloRoad.jpg" alt="Portobello Road">
+            <figcaption>Portobello Road FREE admission</figcaption>
+        </figure>
+
+        <figure class="mix culture none" data-order="5">
+            <img src="images/Bigben+londoneye.jpg" alt="Big Ben and the London Eye">
+            <figcaption>Big Ben and the London Eye FREE</figcaption>
+        </figure>
+        <figure class="mix entertainment none" data-order="23">
+            <img src="images/Fabric-London-club.jpg" alt="Fabric Club">
+            <figcaption>Fabric Club £23.00</figcaption>
+        </figure>
+        <figure class="mix food culture none" data-order="0">
+            <img src="images/CamdenMarket.jpg" alt="Camden Market">
+            <figcaption>Camden Market FREE admission</figcaption>
+        </figure>
+
     
     </div>
     <script src="js/mixitup.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 
     <script>
         var containerEl = document.querySelector('.container');
@@ -66,6 +88,7 @@
         var mixer = mixitup(containerEl);
     </script>
 
+<footer>For more Study Abroad Information visit <a href="https://www.si.umich.edu/programs/bachelor-science-information/study-abroad-undergraduates"></a> UMSI </footer>
 </body>
 </html>
 
