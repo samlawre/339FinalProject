@@ -57,8 +57,8 @@ p{
     display: block;
     font-size: 20px;
     /* border: 3px solid black; */
-    width:50%;
-    border-radius: 10px;
+    width:100%;
+    /* border-radius: 10px; */
     text-align:center;
     padding: 5px;
     align-self: center;
@@ -92,9 +92,10 @@ main a:focus{
 
 .first{
     background-color: aqua;
-    padding: 20px 20px;
+    padding: auto;
     border: 2px solid black;
-    /* border-radius: 20px; */
+    
+    
 }
 
 header p{
@@ -110,24 +111,24 @@ nav ul{
     flex-shrink: 1;
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    margin: 0 2px;
+    margin: 0 5px;
 }
 
 .second{
     background-color: pink;
-    padding: 20px 20px;
+    padding: auto;
     border: 2px solid black;
 }
 
 .third{
     background-color: lightgreen;
-    padding: 20px 20px;
+    padding: auto;
     border: 2px solid black;
 }
 
 .fourth{
     background-color: lightyellow;
-    padding: 20px 20px;
+    padding: auto;
     border: 2px solid black;
 }
 
@@ -139,12 +140,14 @@ a:hover{
     text-decoration: underline;
 }
 
-footer{
+
+footer p{
     /* padding-top: 50px; */
     border-top: 2px white solid;
     margin-top: 20px;
     padding:5px;
     text-align: left;
+    /* border-radius: none; */
 }
 
 a{
@@ -166,4 +169,5 @@ nav ul{
     max-height: 90px;
     align-self: center;
     justify-content: right;
+    font-size: 20px;
 }

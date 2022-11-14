@@ -49,5 +49,8 @@ h1{
 
 figcaption{
     text-align: center;
-    
+}
+
+footer{
+    justify-content: left;
 }
