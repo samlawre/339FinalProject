@@ -23,9 +23,31 @@ img{
     border: 2px solid gold;
     width:90%;
     padding: 5px;
+    /* justify-content: stretch; */
 }
 
 .controls{
     display: inline-block;
     padding-bottom: 10px;
+}
+
+img:nth-child(9){
+    /* align-items: center; */
+    border: 2px solid red;
+}
+
+
+
+h1{
+    text-decoration: underline;
+}
+
+.control{
+    background-color:white;
+
+}
+
+figcaption{
+    text-align: center;
+    
 }
