@@ -7,14 +7,17 @@ h1{
     font-size: 50px;
     display: block;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
     color:white;
 }
 
 nav{
-    display: inline-block;
+    display: flex;
     width:100%;
-    padding-bottom: 20px;
+    /* padding-bottom: 15px; */
+    justify-content: space-between;
+    border-bottom: 2px solid white;
 }
 nav ul{
     display:flex;
@@ -23,6 +26,7 @@ nav ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width:100%;
   }
 
 nav ul li{
@@ -40,7 +44,7 @@ nav a:hover{
     color:blue;
 }
 
-h3{
+h2{
     font-size: 30px;
     text-align: center;
     padding-bottom: 15px;
@@ -61,9 +65,20 @@ p{
     
 }
 
+nav img{
+    border:none;
+    justify-content: left;
+    width:400px;
+}
+
 img{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
+    margin: 20px;
+    padding: 3px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
 }
 
 main a{
@@ -127,7 +142,7 @@ a:hover{
 footer{
     /* padding-top: 50px; */
     border-top: 2px white solid;
-    margin: 20px;
+    margin-top: 20px;
     padding:5px;
     text-align: left;
 }
@@ -144,4 +159,11 @@ footer a{
 nav ul li{
     font-family:"Roboto", Condensed,sans-serif;
     padding:15px;
+    text-align: center;
+}
+
+nav ul{
+    max-height: 90px;
+    align-self: center;
+    justify-content: right;
 }
