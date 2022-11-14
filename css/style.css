@@ -213,7 +213,7 @@ nav ul{
 
 .text {
     color: black;
-    font-size: 50px;
+    font-size: 30px;
     position: absolute;
     top: 10%;
     left: 40%;
@@ -224,9 +224,9 @@ nav ul{
   }
 .text2{
     color: black;
-    font-size: 50px;
+    font-size: 30px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 40%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
