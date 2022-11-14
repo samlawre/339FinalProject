@@ -184,7 +184,7 @@ nav ul{
     font-size: 20px;
 }
 
-.container {
+.new {
     position: relative;
     width: 50%;
   }
@@ -207,7 +207,7 @@ nav ul{
     /* background-color: black; */
   }
   
-.container:hover .overlay {
+.new:hover .overlay {
     opacity: 1;
 }
 
