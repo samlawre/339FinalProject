@@ -29,13 +29,8 @@ img{
 .controls{
     display: inline-block;
     padding-bottom: 10px;
+    text-align: center;
 }
-
-img:nth-child(9){
-    /* align-items: center; */
-    border: 2px solid red;
-}
-
 
 
 h1{
@@ -44,7 +39,7 @@ h1{
 
 .control{
     background-color:white;
-
+    font-size: large;
 }
 
 figcaption{
@@ -53,4 +48,9 @@ figcaption{
 
 footer{
     justify-content: left;
+}
+
+.control:hover {
+  background-color: gold; /* Green */
+  color: black;
 }

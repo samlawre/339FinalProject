@@ -10,6 +10,7 @@ h1{
     padding-top: 20px;
     padding-bottom: 20px;
     color:white;
+    text-decoration: underline;
 }
 
 nav{
@@ -48,6 +49,13 @@ h2{
     font-size: 30px;
     text-align: center;
     padding-bottom: 15px;
+    color:salmon;
+
+}
+
+h2 li{
+    align-content: center;
+    justify-content: center;
 }
 main ul li{
     text-align: center;
@@ -62,6 +70,7 @@ p{
     text-align:center;
     padding: 5px;
     align-self: center;
+    
     
 }
 
@@ -101,6 +110,9 @@ main a:focus{
 header p{
     padding: 10px;
     border-bottom: 15px;
+    /* border-bottom: dotted white 5px; */
+    margin-bottom: 20px;
+    
 }
 
 nav ul{
@@ -145,7 +157,7 @@ footer p{
     /* padding-top: 50px; */
     border-top: 2px white solid;
     margin-top: 20px;
-    padding:5px;
+    padding:10px;
     text-align: left;
     /* border-radius: none; */
 }
@@ -170,4 +182,57 @@ nav ul{
     align-self: center;
     justify-content: right;
     font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: black; */
+  }
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.text2{
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image:hover{
+    opacity:.5;
 }
