@@ -97,27 +97,29 @@ body{
 
 .compare_container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     /* flex-wrap: ; */
 }
 
-.compare_container .transportation{
+.compare_container .comp{
     margin: 10px;
     padding: 10px;
     border: pink 2px solid;
     border-radius: 5px;
     text-align: center;
-    /* justify-content: center;
-    flex-direction: row; */
 }
 
 .compare_container .compare_overview{
+    display: grid;
     color: white;
     height: 400px;                
     grid-column: 1/-1;
+    grid-column: 1/-1;
+    background-image: url(barc_images/above.jpg);
+    background-color: gray;
   }
 
 .compare_overview p{
