@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/barc.css">
 
@@ -19,46 +20,74 @@
                 <li><a href = "compare.html">Comparing Cities</a></li>
             </ul>
         </nav>
-        <h1>Barcelona</h1>
+        <h1>Barcelona Bucket List</h1>
 
     </header>
     
-    <main>
+    <main class="container" id = "main">
         <!-- <h2> Barcelona! </h2> -->
         
         <a href="#main">Skip To Main Content</a>
 
-        <!-- <h3>Top Three Reasons We picked Our Topic</h3>
-        <ul>
-            <li>There are a lot of resturants in Ann Arbor</li>
-            <li>Tons of new students may want to find good recs</li>
-            <li>We eat at a new place once a week, so here are our favorites</li> -->
-        </ul>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit inventore commodi laborum quia velit dolor nostrum culpa similique corporis, quam dolorum harum hic. Tenetur, molestiae? Adipisci fugiat aspernatur eos.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit inventore commodi laborum quia velit dolor nostrum culpa similique corporis, quam dolorum harum hic. Tenetur, molestiae? Adipisci fugiat aspernatur eos.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reprehenderit inventore commodi laborum quia velit dolor nostrum culpa similique corporis, quam dolorum harum hic. Tenetur, molestiae? Adipisci fugiat aspernatur eos.</p> 
-        <div class = "gallery">
-            <img src = "barc_images/church.jpg" width="400" alt = "church"/>
-            <!-- image from pexels.com -->
-            <img src = "barc_images/tram.jpg" width="400" alt = "tram"/>
-            <!-- image from wikipedia -->
-            <img src = "barc_images/campNou.png" width="400" alt = "largest stadium in europe"/>
-            <!-- image from wikipedia -->
-            <img src = "barc_images/city_hall.png" width="500" alt = "barcelona city hall"/>
-            <!-- image from wikipedia -->
-            <img src = "barc_images/beach.png" width="400" alt = "barcelona beach"/>
-                <!-- image from wikipedia -->
-            <img src = "barc_images/old_barc.jpeg" width="400" alt = "map of mideval barcelona"/>
-                <!-- image from wikipedia -->
-            <img src = "barc_images/map.png" width="500" alt = "barecelona's location on a map"/>
-                 <!-- image from wikipedia -->
-            <img src = "barc_images/la_rambla.png" width="500" alt = "la rambla"/>
-                 <!-- image from wikipedia -->
-            <img src = "barc_images/museum.jpeg" width="400" alt = "art museum in barcelona"/>
-                 <!-- image from wikipedia -->
-            <!-- <img src = "barc_images/gothic.png" width="400" alt = "gothic quarter in barcelona"/> -->
-                 <!-- image from wikipedia -->
+        <br></br>
+        <div class = "Bgallery">
+            <a href = "barc_images/familia.png" target = "_blank" data-lightbox="attraction" data-title = "Visit La Sagrada Familia church" data-alt = "church">
+                <img src="barc_images/familia.png" width = "400" alt="sagrada de familia church">
+            </a>
+            <a href = "barc_images/tapas.jpeg" target = "_blank" data-lightbox="food" data-title = "Eat Spanish Tapas" data-alt = "spanish tapas">
+                <img src="barc_images/tapas.jpeg" width = "400" alt="spanish tapas">
+            </a>
+            <a href = "barc_images/city_hall.png" target = "_blank" data-lightbox="attraction" data-title = "Visit Barcelona City Hall" data-alt = "barcelona city hall">
+                <img src="barc_images/city_hall.png" width = "400" alt="barcelona city hall">
+            </a>
+            <a href = "barc_images/beach.png" target = "_blank" data-lightbox="attraction" data-title = "Go to a Barcelona beach" data-alt = "barcelona beach">
+                <img src="barc_images/beach.png" width = "400" alt="barcelona beach">
+            </a>
+            <a href = "barc_images/flamenco.jpeg" target = "_blank" data-lightbox="attraction" data-title = "Watch the famous Spanish flamenco dance" data-alt = "famous barcelona flamenco dance">
+                <img src="barc_images/flamenco.jpeg" width = "400" alt="famous barcelona flamenco dance">
+            </a>
+            <a href = "barc_images/montserrat.jpeg" target = "_blank" data-lightbox="attraction" data-title = "Go to the Montserrat Mountains" data-alt = "the Montserrat Mountains">
+                <img src="barc_images/montserrat.jpeg" width = "400" alt="the Montserrat Mountains">
+            </a>
+            <a href = "barc_images/rambla.png" target = "_blank" data-lightbox="attraction" data-title = "Walk La Rambla" data-alt = "La Rambla in Barcelona">
+                <img src="barc_images/rambla.png" width = "400" alt="La Rambla in Barcelona">
+            </a>
+            <a href = "barc_images/campNou.png" target = "_blank" data-lightbox="attraction" data-title = "Watch a soccer game at Camp Nou" data-alt = "Camp Nou in Barcelona">
+                <img src="barc_images/campNou.png" width = "400" alt="Camp Nou in Barcelona">
+            </a>
+            <a href = "barc_images/churros.jpeg" target = "_blank" data-lightbox="food" data-title = "Eat Churros con Chocolate" data-alt = "Churros con Chocolate">
+                <img src="barc_images/churros.jpeg" width = "400" alt="Churros con Chocolate">
+            </a>
+            
         </div>
     </main>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 10,
+          'wrapAround': true,
+          positionFromTop: 10,
+        })
+    </script>
 </body>
 </html>
+
+
+<!-- <img src = "barc_images/campNou.png" width="400" alt = "largest stadium in europe"/> -->
+                 <!-- image from pexels.com -->
+            <!-- <img src = "barc_images/churros.jpeg" width="400" alt = "art museum in barcelona"/> -->
+                 <!-- image from wikipedia -->
+                 <!-- <img src = "barc_images/montserrat.jpeg" width="500" alt = "barcelona's location on a map"/> -->
+                 <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/rambla.png" width="500" alt = "la rambla"/> -->
+                 <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/beach.png" width="400" alt = "barcelona beach"/> -->
+                <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/flamenco.jpeg" width="400" alt = "map of mideval barcelona"/> -->
+                <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/tapas.jpeg" width="400" alt = "spanish tapas"/>  -->
+                 <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/city_hall.png" width="500" alt = "barcelona city hall"/> -->
+            <!-- image from wikipedia -->
+            <!-- <img src = "barc_images/familia.png" width="400" alt = "church"/> -->
+            <!-- image from wikipedia -->
