@@ -191,12 +191,12 @@ nav ul{
     width: 50%;
   }
   
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
   }
-.overlay {
+/* .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -207,13 +207,13 @@ nav ul{
     opacity: 0;
     transition: .5s ease;
     /* background-color: black; */
-  }
+  /* }  */
   
-.new:hover .overlay {
+/* .new:hover .overlay {
     opacity: 1;
 }
 
-.text { /*change this part to be for media query's too*/
+.text { 
     color: black;
     font-size: 30px;
     position: absolute;
@@ -224,7 +224,7 @@ nav ul{
     transform: translate(-50%, -50%);
     text-align: center;
   }
-.text2{ /*change this part to be for media query's too*/
+.text2{ 
     color: black;
     font-size: 30px;
     position: absolute;
@@ -237,16 +237,35 @@ nav ul{
 }
 .image:hover{
     opacity:.5;
+} */
+
+main{
+    display:grid;
+    grid-template-columns: 50% 30%;
+    grid-gap: 5px;
+    justify-content: center;
 }
 
-.new{
-    display:grid;
-    grid-template-columns: 2;
+main img{
+    width:100%;
+    /* height:100%; */
 }
 
 .first a{
     color: blue;
     text-decoration: underline;
+}
+
+.text2{
+    visibility: hidden;
+}
+
+.text{
+    visibility:hidden;
+}
+
+a .main{
+    color:white;
 }
 @media screen and (prefers-reduced-motion: reduce){
     html{
@@ -308,5 +327,49 @@ nav ul{
         justify-self: left;
         width:30%;
         align-self: center;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: black; */
+      }
+      
+    .new:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text { /*change this part to be for media query's too*/
+        visibility: visible;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    .text2{ /*change this part to be for media query's too*/
+        visibility:visible;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .image:hover{
+        opacity:.5;
     }
 }
