@@ -19,6 +19,7 @@
  html{
     background-color: black;
     color:white;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -63,7 +64,7 @@ nav a:hover{
     color:blue;
 }
 
-/* my stuff */
+/* my stuff for barc*/
 body{
     /* background-image: url("above.png"); */
     background-color: black;
@@ -75,15 +76,53 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 45px;
  }
 
  .Bgallery img{
-    border: silver solid 5px;
+    border: #955251 solid 3px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px;
  }
 
 .lb-data .lb-caption {
     font-size: 30px;
 }
+
+.Bcontainer h2{
+    text-align: center;
+}
+
+/* my stuff for compare */
+
+.compare_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    /* flex-wrap: ; */
+}
+
+.compare_container .transportation{
+    margin: 10px;
+    padding: 10px;
+    border: pink 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    /* justify-content: center;
+    flex-direction: row; */
+}
+
+.compare_container .compare_overview{
+    color: white;
+    height: 400px;                
+    grid-column: 1/-1;
+  }
+
+.compare_overview p{
+    color: white;
+    font-size: 24px;
+    padding: 0 100px;
+    text-align: center;
+  }
