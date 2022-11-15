@@ -81,4 +81,9 @@ body{
  .Bgallery img{
     border: silver solid 5px;
     border-radius: 5px;
+    padding: 5px;
  }
+
+.lb-data .lb-caption {
+    font-size: 30px;
+}
