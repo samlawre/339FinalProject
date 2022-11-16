@@ -66,7 +66,6 @@ nav a:hover{
 
 /* my stuff for barc*/
 body{
-    /* background-image: url("above.png"); */
     background-color: black;
     color: white
 }
@@ -93,6 +92,21 @@ body{
     text-align: center;
 }
 
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+  }
+
+.skip a:focus{
+    top: 20px;
+}
+
 /* my stuff for compare */
 
 .compare_container{
@@ -101,30 +115,43 @@ body{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    /* flex-wrap: ; */
 }
 
-.compare_container .comp{
+.comp{
     margin: 10px;
     padding: 10px;
-    border: pink 2px solid;
     border-radius: 5px;
     text-align: center;
 }
 
-.compare_container .compare_overview{
+.compare_overview{
     display: grid;
     color: white;
-    height: 400px;                
+    height: 300px;                
     grid-column: 1/-1;
-    grid-column: 1/-1;
-    background-image: url(barc_images/above.jpg);
+    background-image: url("../barc_images/Babove.jpeg");
     background-color: gray;
   }
 
 .compare_overview p{
     color: white;
     font-size: 24px;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     text-align: center;
   }
+
+.compare_overview h2{
+    color: white;
+    font-size: 40px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+  }
+
+.barc{
+    border: red 2px solid;
+}
+.lond{
+    border: blue 2px solid;
+}
+
+
