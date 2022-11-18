@@ -177,3 +177,99 @@ body{
     padding: auto;
     border: 2px solid black;
 }
+
+@media only screen and (min-width: 800px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        /* grid-template-row: 1/5 1/5 1/5 1/5 1/5; */
+    }
+    nav ul{
+        display: flex;
+        justify-self: right;
+        justify-content: space-around;
+        width:70%;
+        
+    }
+
+    nav img{
+        display: flex;
+        justify-self: left;
+        width:35%;
+    }
+    nav ul{
+        display: flex;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-negative: 1;
+        flex-shrink: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        /* grid-template-row: 1/5 1/5 1/5 1/5 1/5; */
+    }
+    nav ul{
+        display: flex;
+        justify-self: right;
+        justify-content: right;
+        width:70%;
+        
+    }
+    nav img{
+        display: flex;
+        justify-self: left;
+        width:30%;
+        align-self: center;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: black; */
+      }
+      
+    .new:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text { 
+        visibility: visible;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    .text2{ 
+        visibility:visible;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .image:hover{
+        opacity:.5;
+    }
+}
