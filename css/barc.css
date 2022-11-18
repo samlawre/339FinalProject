@@ -154,4 +154,37 @@ body{
     border: blue 2px solid;
 }
 
+nav{
+    display: inline-grid;
+    grid-template-columns: 1/5 4/5;
+    width:100%;
+    /* padding-bottom: 15px; */
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+nav ul{
+    display:flex;
+    flex-direction: inherit;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:100%;
+    overflow: none;
+  }
 
+nav ul li{
+    text-decoration: none;
+    font-family:"Roboto", Condensed,sans-serif;
+}
+
+
+nav a:active{ 
+    color: blue;
+    text-decoration-color: blue;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:blue;
+}
