@@ -1,40 +1,37 @@
 
-nav{
+/* nav .navLondon{
     background-color: black;
-}
-
-div{
+} */
+/* 
+.lon div{
     background-color: black;
     display: grid;
     grid-template-columns: 50% 50%;
-    /* justify-content: stretch; */
     justify-items: center;
     align-items: center;
     width:100%;
-    /* align-items: stretch; */
     row-gap: 5px;
 }
 
-p{
+footer p{
     color: white;
 }
 
-img{
+.gallery img{
     border: 2px solid gold;
     width:90%;
     padding: 5px;
     justify-content: center;
-    /* justify-content: stretch; */
 }
 
-.controls{
+.lon .controls{
     display: inline-block;
     padding-bottom: 10px;
     text-align: center;
 }
 
 
-h1{
+h1 .head1{
     text-decoration: underline;
 }
 
@@ -46,6 +43,7 @@ h1{
 figcaption{
     text-align: center;
     padding:20px;
+    font-size: 20px;
 }
 
 footer{
@@ -53,7 +51,7 @@ footer{
 }
 
 .control:hover {
-  background-color: gold; /* Green */
+  background-color: gold; 
   color: black;
 }
 
@@ -66,4 +64,4 @@ footer{
 .second a{
     color: blue;
     text-decoration: underline;
-}
+} */
