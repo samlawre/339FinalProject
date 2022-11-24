@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/london.css">
+    <!-- <link rel="stylesheet" href="css/london.css"> -->
 
 
     <title>Study Abroad </title>
@@ -14,18 +14,18 @@
         <header>
             <nav>
                 <img src="images/STUDY ABROAD.png" alt="logo">
-                <ul>
+                <ul class=".navstyle">
                     <li class="first"><a href = "index.html">Home Page</a></li>
-                    <li class="second"><a href = "london.html">London Bucket List</a></li>
+                    <li class="second active"><a href = "london.html">London Bucket List</a></li>
                     <li class="third"><a href = "barcelona.html">Barcelona Bucket List</a></li>
                     <li class="fourth"><a href = "compare.html">Comparing Cities</a></li>
                 </ul>
             </nav>
-    <h1>London Bucket List</h1>
+    <h1 class="head1">London Bucket List</h1>
 </head>
 
 <body>
-    <main>
+    <main class="lon">
         <div class = "skip"><a href="#div">Skip To Main Content</a></div>
         <div class="controls">
             <button type="button" class="control" data-filter=".food">Food</button>
@@ -35,7 +35,7 @@
 
         </div>
         <div class="container gallery">
-            <figure class="mix food entertainment none" data-order="0">
+            <figure class="mix food none" data-order="0">
                 <img src="images/Borough-Market-sign.jpg" alt="Borough Market"></a>
                 <figcaption>Borough Market FREE admission. The food-focused Borough Market is effectively three markets in one (with restaurants, bars and shops interspersed throughout). The market is open every day with hours of 10 a.m. to 5 p.m.</figcaption>
             </figure>
@@ -93,7 +93,9 @@
         var mixer = mixitup(containerEl);
     </script>
     <footer>
-        <p>For more Study Abroad Information click <a href="https://www.si.umich.edu/programs/bachelor-science-information/study-abroad-undergraduates">here</a></p>
+        <p>For more Study Abroad information click <a href="https://www.si.umich.edu/programs/bachelor-science-information/study-abroad-undergraduates">here</a></p>
+        <p>For more information on Queen Mary University click <a href="https://www.qmul.ac.uk/">here</a></p>
+        <p>For more information on the University of Vic click <a href="https://www.uvic.cat/en/international/exchange_students">here</a></p>
     </footer>
 </body>
 </html>
