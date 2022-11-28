@@ -13,96 +13,6 @@ h1{
     text-decoration: underline;
 }
 
-/* meghan's barc styling*/
-body{
-    background-color: black;
-    color: white
-}
-
-.Bgallery{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 45px;
- }
-
- .Bgallery img{
-    border: #955251 solid 3px;
-    border-radius: 5px;
-    padding: 6px;
- }
-
-.lb-data .lb-caption {
-    font-size: 30px;
-}
-
-.Bcontainer h2{
-    text-align: center;
-}
-
-.skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-    position: absolute;
-    top: -40px;
-  }
-
-.skip a:focus{
-    top: 20px;
-}
-
-/*meghan's compare styling*/
-.compare_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.comp{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.compare_overview{
-    display: grid;
-    color: white;
-    height: 300px;                
-    grid-column: 1/-1;
-    background-image: url("../barc_images/Babove.jpeg");
-    background-color: gray;
-  }
-
-.compare_overview p{
-    color: white;
-    font-size: 24px;
-    /* padding: 0 100px; */
-    text-align: center;
-  }
-
-.compare_overview h2{
-    color: white;
-    font-size: 40px;
-    padding: 100px 0px 0px 0px;
-    text-align: center;
-  }
-
-.barc{
-    border: red 2px solid;
-}
-.lond{
-    border: blue 2px solid;
-}
-
-/* sam's homepage and london styling */
 nav{
     display: inline-grid;
     grid-template-columns: 1/5 4/5;
@@ -139,7 +49,6 @@ nav a:hover{
     padding-bottom: 15px;
     color:salmon;
     text-decoration: underline;
-
 }
 
 .bottom h2 li{
@@ -171,6 +80,15 @@ nav img{
     border: 2px solid white;
     justify-content: center;
     align-items: center;
+}
+
+.skip a{
+    position:absolute; 
+    top:-40px;
+}
+
+.skip a:focus{
+    top:20px;
 }
 
 .first{
@@ -229,13 +147,18 @@ a:hover{
 
 
 footer{
+    display:grid;
     border-top: 2px white solid;
     margin-top: 20px;
     padding-top:10px;
     text-align: left;
     justify-content: left;
+    align-content: center;
 }
 
+.earth{
+    padding-right: 5px;
+}
 
 .all footer p{
     margin-bottom: 7px;
@@ -417,6 +340,9 @@ figcaption{
     color: blue;
 }
 
+.e p{
+    text-align: center;
+}
 
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -458,6 +384,17 @@ figcaption{
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
         margin: 0 5px;
+    }
+
+    footer{
+        display:grid;
+        grid-template-columns: 8% 60% 30%;
+        border-top: 2px white solid;
+        margin-top: 20px;
+        padding-top:10px;
+        text-align: left;
+        justify-content: left;
+        align-content: center;
     }
 }
 
@@ -540,5 +477,16 @@ figcaption{
         justify-items: center;
         text-align: left;
 
+    }
+
+    footer{
+        display:grid;
+        grid-template-columns: 8% 60% 30%;
+        border-top: 2px white solid;
+        margin-top: 20px;
+        padding-top:10px;
+        text-align: left;
+        justify-content: left;
+        align-content: center;
     }
 }
