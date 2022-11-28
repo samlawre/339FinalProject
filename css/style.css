@@ -13,6 +13,96 @@ h1{
     text-decoration: underline;
 }
 
+/* meghan's barc styling*/
+body{
+    background-color: black;
+    color: white
+}
+
+.Bgallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 45px;
+ }
+
+ .Bgallery img{
+    border: #955251 solid 3px;
+    border-radius: 5px;
+    padding: 6px;
+ }
+
+.lb-data .lb-caption {
+    font-size: 30px;
+}
+
+.Bcontainer h2{
+    text-align: center;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+  }
+
+.skip a:focus{
+    top: 20px;
+}
+
+/*meghan's compare styling*/
+.compare_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.comp{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.compare_overview{
+    display: grid;
+    color: white;
+    height: 300px;                
+    grid-column: 1/-1;
+    background-image: url("../barc_images/Babove.jpeg");
+    background-color: gray;
+  }
+
+.compare_overview p{
+    color: white;
+    font-size: 24px;
+    /* padding: 0 100px; */
+    text-align: center;
+  }
+
+.compare_overview h2{
+    color: white;
+    font-size: 40px;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+  }
+
+.barc{
+    border: red 2px solid;
+}
+.lond{
+    border: blue 2px solid;
+}
+
+/* sam's homepage and london styling */
 nav{
     display: inline-grid;
     grid-template-columns: 1/5 4/5;
