@@ -24,7 +24,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 45px;
+    gap: 20px;
  }
 
  .Bgallery img{
@@ -59,7 +59,7 @@ body{
 /*meghan's compare styling*/
 .compare_container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
@@ -77,7 +77,7 @@ body{
     color: white;
     height: 300px;                
     grid-column: 1/-1;
-    background-image: url("../barc_images/Babove.jpeg");
+    background-image: url("../barc_images/lond.jpeg");
     background-color: gray;
   }
 
@@ -94,6 +94,16 @@ body{
     padding: 100px 0px 0px 0px;
     text-align: center;
   }
+
+.comp h3{
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+.comp p{
+    padding: 10px;
+    /* font-size: 20px; */
+}
 
 .barc{
     border: red 2px solid;
@@ -172,14 +182,10 @@ nav img{
     align-items: center;
 }
 
-.skip a{
+/* .skip a{
     position:absolute; 
     top:-40px;
-}
-
-.skip a:focus{
-    top:20px;
-}
+} */
 
 .first{
     background-color: aqua;
@@ -353,7 +359,7 @@ main .new img{
     visibility:hidden;
 }
 
-.skip a{
+/* .skip a{
     background: white;
     left: 0;
     padding: 6px;
@@ -362,11 +368,11 @@ main .new img{
     z-index: 1;
     position: absolute;
     top: -40px;
-  }
+  } */
 
-.skip a:focus{
+/* .skip a:focus{
     top: 20px;
-}
+} */
 
 /* THIS IS FOR LONDON CSS */
 nav .navLondon{
@@ -434,7 +440,7 @@ figcaption{
     text-align: center;
 }
 
-
+/* our media queries */
 @media screen and (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto; /* Removes scroll animation */
@@ -446,7 +452,7 @@ figcaption{
      }
     }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 850px){
     nav{
         display: flex;
         justify-content: space-between;
@@ -486,6 +492,18 @@ figcaption{
         justify-content: left;
         align-content: center;
     }
+
+    .compare_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Bgallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+     }
 }
 
 @media only screen and (min-width: 1200px){
@@ -578,5 +596,19 @@ figcaption{
         text-align: left;
         justify-content: left;
         align-content: center;
+        background: radial-gradient(circle, rgba(17,31,101,1) 0%, rgba(119,35,53,1) 100%);
     }
+
+    .compare_container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Bgallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 45px;
+     }
+
 }
