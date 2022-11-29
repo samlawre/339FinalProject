@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/email.png"/> 
+  <!-- change icon -->
+  <title>Study Abroad City Voting Form</title>
+  <style>
+    input{
+      display: block;
+    }
+    body{
+      background-color: antiquewhite;
+      font-size: 20px;
+    }
+    #submit{
+        background-color: whitesmoke;
+        font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+ <form action= "https://formspree.io/f/xlevyevw" method="POST">
+  <fieldset>
+    <legend>Pick a city!</legend>
+    <h3>Choose which city you believe is better for studying abroad!</h3>
+    <div>
+      <input type="radio" id="barcelona" name="city_choice" value="Barcelona, Spain">
+      <label for="city_choice">Barcelona, Spain</label><br>
+      <input type="image" src="barc_images/above.jpeg" alt="image" width="300" height="300">
+    </div>
+    <br>
+    <div><input type="radio" id="london" name="city_choice" value="London, England">
+      <label for="city_choice">London, England</label><br>
+      <input type="image" src="barc_images/lond_pano.jpeg" alt="image" width="500" height="250">
+    </div>
+
+    <br><input type="submit" value = "Submit" id = "submit">
+
+  </fieldset>
+ </form>
+</body>
+</html>
