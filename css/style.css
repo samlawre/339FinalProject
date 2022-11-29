@@ -101,7 +101,6 @@ body{
 
 .comp p{
     padding: 10px;
-    /* font-size: 20px; */
 }
 
 .barc{
@@ -121,6 +120,13 @@ body{
 
 .form h2{
     font-size: 25px;
+}
+
+.form p a:visited{
+    color: lightblue
+}
+.form p a:link{
+    color: white
 }
 
 /* sam's homepage and london styling */
@@ -193,10 +199,6 @@ nav img{
     align-items: center;
 }
 
-/* .skip a{
-    position:absolute; 
-    top:-40px;
-} */
 
 .first{
     background-color: aqua;
@@ -210,7 +212,6 @@ header p{
     margin-bottom: 20px;
 }
 .bottom{
-    /* border-top: solid 1px white; */
     padding-top:15px;
     padding-bottom: 25px;
 }
@@ -375,20 +376,6 @@ main .new img{
     visibility:hidden;
 }
 
-/* .skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-    position: absolute;
-    top: -40px;
-  } */
-
-/* .skip a:focus{
-    top: 20px;
-} */
 
 /* THIS IS FOR LONDON CSS */
 nav .navLondon{
