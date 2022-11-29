@@ -324,7 +324,7 @@ nav ul{
     max-height: 90px;
     align-self: center;
     justify-content: right;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .new {
@@ -461,13 +461,6 @@ figcaption{
         display: flex;
         justify-content: space-between;
     }
-    nav ul{
-        display: flex;
-        justify-self: right;
-        justify-content: space-around;
-        width:70%;
-        
-    }
 
     nav img{
         display: flex;
@@ -477,6 +470,9 @@ figcaption{
     }
     nav ul{
         display: flex;
+        justify-self: right;
+        justify-content: space-around;
+        width:70%;
         -ms-flex-positive: 1;
         flex-grow: 1;
         -ms-flex-negative: 1;
@@ -484,6 +480,7 @@ figcaption{
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
         margin: 0 5px;
+        font-size: 18px;
     }
 
     footer{
@@ -540,9 +537,6 @@ figcaption{
         font-size: 40px;
     }
 
-    nav ul{
-        font-size: 17px;
-    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -555,7 +549,7 @@ figcaption{
         justify-self: right;
         justify-content: right;
         width:70%;
-        
+        font-size: 20px;
     }
     nav img{
         display: flex;
@@ -661,7 +655,5 @@ figcaption{
      h1{
         font-size: 50px;
     }
-    nav ul{
-        font-size: 20px;
-    }
+    
 }
