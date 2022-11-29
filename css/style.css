@@ -4,7 +4,7 @@ html{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 35px;
     display: block;
     text-align: center;
     padding-top: 20px;
@@ -83,13 +83,13 @@ body{
 
 .compare_overview p{
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
   }
 
 .compare_overview h2{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 100px 0px 0px 0px;
     text-align: center;
   }
@@ -324,7 +324,7 @@ nav ul{
     max-height: 90px;
     align-self: center;
     justify-content: right;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .new {
@@ -501,6 +501,14 @@ figcaption{
         grid-template-columns: 1fr 1fr;
     }
 
+    .compare_container .compare_overview h2{
+        font-size: 35px;
+    }
+
+    .compare_overview p{
+        font-size: 22px;
+    }
+
     .Bgallery{
         display: flex;
         justify-content: center;
@@ -527,6 +535,13 @@ figcaption{
         align-items: center;
         width:100%;
         row-gap: 5px;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    nav ul{
+        font-size: 17px;
     }
 }
 
@@ -628,6 +643,14 @@ figcaption{
         grid-template-columns: 1fr 1fr;
     }
 
+    .compare_container .compare_overview h2{
+        font-size: 40px;
+    }
+
+    .compare_overview p{
+        font-size: 24px;
+    }
+
     .Bgallery{
         display: flex;
         justify-content: center;
@@ -635,5 +658,10 @@ figcaption{
         align-items: center;
         gap: 45px;
      }
-
+     h1{
+        font-size: 50px;
+    }
+    nav ul{
+        font-size: 20px;
+    }
 }
