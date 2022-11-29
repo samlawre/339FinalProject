@@ -260,7 +260,6 @@ footer{
     margin-bottom: 7px;
     text-align: left;
     padding-left:20px;
-    
 }
 
 footer p{
@@ -275,6 +274,10 @@ footer p{
     width: 100%;
     /* padding: 5px; */
     align-self: center;
+}
+
+.e{
+    padding:0;
 }
 
 nav a{
@@ -337,7 +340,7 @@ nav ul{
 main .new{
     display:grid;
     width:90%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
     justify-content: center;
     align-items: center;
@@ -437,7 +440,7 @@ figcaption{
 }
 
 .e p{
-    text-align: center;
+    text-align: left;
 }
 
 /* our media queries */
@@ -504,6 +507,16 @@ figcaption{
         align-items: center;
         gap: 30px;
      }
+
+    main .new{
+        display:grid;
+        width:90%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        justify-content: center;
+        align-items: center;
+    
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -596,7 +609,9 @@ figcaption{
         text-align: left;
         justify-content: left;
         align-content: center;
-        background: radial-gradient(circle, rgba(17,31,101,1) 0%, rgba(119,35,53,1) 100%);
+        /* background: radial-gradient(circle, rgba(17,31,101,1) 0%, rgba(119,35,53,1) 100%); */
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,113,1) 0%, rgba(218,165,41,1) 13%, rgba(181,109,41,1) 21%, rgba(75,26,10,1) 27%, rgba(12,18,40,1) 33%, rgba(0,0,0,1) 45%);
     }
 
     .compare_container{
