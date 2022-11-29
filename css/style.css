@@ -385,7 +385,7 @@ nav .navLondon{
 .lon div{
     background-color: black;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
     width:100%;
@@ -417,6 +417,7 @@ h1 .head1{
 .control{
     background-color:white;
     font-size: large;
+    color:black;
 }
 
 figcaption{
@@ -516,6 +517,16 @@ figcaption{
         justify-content: center;
         align-items: center;
     
+    }
+
+    .lon div{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        align-items: center;
+        width:100%;
+        row-gap: 5px;
     }
 }
 
