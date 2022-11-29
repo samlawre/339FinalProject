@@ -84,7 +84,6 @@ body{
 .compare_overview p{
     color: white;
     font-size: 24px;
-    /* padding: 0 100px; */
     text-align: center;
   }
 
@@ -110,6 +109,18 @@ body{
 }
 .lond{
     border: blue 2px solid;
+}
+
+.form{
+    border: purple 2px solid;
+    grid-column: 1/-1;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.form h2{
+    font-size: 25px;
 }
 
 /* sam's homepage and london styling */
